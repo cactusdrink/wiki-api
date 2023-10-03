@@ -1,0 +1,22 @@
+{
+  "name": "wiki-api",
+  "version": "1.0.0",
+  "description": "a RESTful API that scrapes the internet to get you information on any topic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "nodejs",
+    "wikipedia"
+  ],
+  "author": "cactusdrink",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  }
+}
